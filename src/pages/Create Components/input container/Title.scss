@@ -1,0 +1,63 @@
+.title-container{
+    h1{
+        color: rgb(70, 70, 70);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 50px;
+    }
+    p{
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+.title-continue{
+    display: flex;
+    justify-content: flex-end;
+    button{
+                font-size: 15px;
+                padding: 10px 30px;
+                border-radius: 5px;
+                color: white;
+                cursor: pointer;
+                margin-top: 20px;
+                transition: 0.5s;
+    }
+    .title-btn-2:hover{
+        font-size: 17px;
+    }
+    .title-btn-2{
+        border: none;
+        background-color: #B007FF;
+        margin-left: 10px;
+    }
+    .title-btn-1{
+        border-color: #B007FF;
+        color: #B007FF;
+        background-color: white;
+    }
+}
+
+.title-area{
+    width: 100%;
+    input{
+        width: 100%;
+        border-radius: 10px;
+        font-size: 25px;
+        padding: 10px 20px;
+        margin: 20px 0px;
+        font-weight: bold;
+    }
+}
+.title-tips{
+    width: 100%;
+    border: solid black 2px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    color: rgb(69, 69, 69);
+    margin-top: 30px;
+    padding: 10px 20px;
+    .example{
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+}

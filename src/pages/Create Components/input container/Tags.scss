@@ -1,0 +1,55 @@
+.tag-container{
+    h1{
+        color: rgb(70, 70, 70);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 50px;
+    }
+}
+.tags-container{
+    width: 100%;
+    margin-top: 20px;
+    
+    .tag-btn{
+        padding: 10px 20px;
+        font-family: 'Montserrat', sans-serif;
+        background-color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 5px;
+        
+    }
+    .tag-btn:hover{
+        background-color: #B007FF;
+        color: white;
+    }
+}
+.tag-continue{
+    display: flex;
+    justify-content: flex-end;
+    button{
+                font-size: 15px;
+                padding: 10px 30px;
+                border-radius: 5px;
+                color: white;
+                cursor: pointer;
+                margin-top: 20px;
+                transition: 0.5s;
+    }
+    .tag-btn-2:hover{
+        font-size: 17px;
+    }
+    .tag-btn-2{
+        border: none;
+        background-color: #B007FF;
+        margin-left: 10px;
+    }
+    .tag-btn-1{
+        border-color: #B007FF;
+        color: #B007FF;
+        background-color: white;
+    }
+}
+
+.tag-active{
+    color: #B007FF;
+}

@@ -1,0 +1,96 @@
+.container{
+    flex: 1;
+    height: 80px;
+    background-color: #242424;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0px 20px;
+}
+.link-container ul{
+    display: flex;
+    align-items: center;
+}
+
+.link-container ul li{
+    list-style: none;
+}
+.logo{
+    font-size: 20px!important;
+    cursor: pointer;
+}
+
+.logo h1{
+    color: white;
+}
+.org{
+    color: #B007FF;
+}
+
+.login-btn{
+    background-color: #B007FF;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-btn:hover{
+    background-color: white;
+    color: #B007FF;
+}
+.active-btn{
+    background-color: white;
+    color: black;
+}
+
+.profile-navbar img{
+    cursor: pointer;
+}
+
+.links ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.links ul li{
+    list-style: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    padding: 10px 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.links ul li:hover{
+    background-color: #B007FF;
+    color: white;
+    border-radius: 5px;
+}
+
+.active{
+    background-color: #B007FF;
+    color: white!important;
+    border-radius: 5px;
+}
+
+.profile-navbar{
+    display: flex;
+    align-items: center;
+}
+
+.profile-navbar button{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

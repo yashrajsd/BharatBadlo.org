@@ -1,0 +1,28 @@
+.notfound-container
+{
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        font-size: 80px;
+        color: rgba(197, 197, 197, 0.652);
+    }
+    p{
+        font-weight: bold;
+        color: rgba(146, 146, 146, 0.944);
+        font-size: 20px;
+    }
+
+    .c1{
+        flex: 0.5;
+        img{
+            width: 100%;
+        }
+    }
+    .c2{
+        flex: 0.5;
+    }
+
+}

@@ -1,0 +1,124 @@
+.All-c{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    .card-your-petition{
+        width: 100%;
+        height:60vh;
+        background-color:antiquewhite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        .c1{
+            height: 90%;
+            width: 50%;
+            background-color: #393939;
+            border-radius: 15px;
+            display: flex;
+            padding-right: 20px;
+            padding-top: 10px;
+            .c1-img{
+                width: 40%;
+                height: 100%;
+                img{
+                    position: relative;
+                    bottom: -30%;
+                    left: -5%;
+                }
+            }
+            .c1-text{
+                h1{
+                    color: white;
+                    font-size: 60px;
+                    font-family: 'Montserrat', sans-serif;
+                }
+                p{
+                    color: rgba(255, 255, 255, 0.649);
+                    font-size: 25px;
+                }
+                button{
+                    padding: 10px 20px;
+                    background-color: #B007FF;
+                    color: white;
+                    font-weight: 700;
+                    border: none;
+                    margin-top: 20px;
+                    border-radius: 20px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .card-c{
+        width: 100%;
+        height: 40vh;
+        background-color: white;
+        padding-left: 10%;
+        padding-top: 20px;
+        .card-slider{
+            display: flex;
+            flex-direction: row;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            gap: 40px;
+            width: 90vw;
+            &::-webkit-scrollbar{
+                display: none;
+            }
+        }
+        h1{
+            color: #393939;
+            margin-bottom: 20px;
+        }
+        .card-c-c{
+            min-width: 40vw!important;
+            height: 25vh;
+            background-color: #393939;
+            display: flex;
+            .card-c-c-img{
+                width: 40%!important;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+                background-color: white;
+                img{
+                    height: 90%!important;
+                    transition: 0.5s;
+                }
+                img:hover{
+                    height: 100%!important;
+                }
+            }
+            .card-c-c-info{
+                width: 60%!important;
+                height: 100%;   
+                padding: 10px 20px;  
+                display: flex;
+                flex-direction: column;
+                gap: 10px;  
+                .card-c-c-info-title{
+                    color: white;
+                    font-weight: 500;
+                    font-size: 25px;
+                }
+                p{
+                    color: white;
+                }     
+                .card-c-c-info-btn{
+                    background-color: #B007FF;
+                    color: white;
+                    font-weight: 700;
+                    padding: 8px 10px;
+                    border: none;
+                    width: 120px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
